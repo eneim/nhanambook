@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <im.ene.lab.nnbook.libs.pagerslidingtabstrip.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:pstsDividerColor="@android:color/transparent"
+        app:pstsIndicatorColor="@color/beautiful_orange"
+        app:pstsIndicatorHeight="3.0dp"
+        app:pstsShouldExpand="true"
+        app:pstsUnderlineColor="@color/beautiful_orange"
+        app:pstsUnderlineHeight="0.5dp" />
+
+    <im.ene.lab.nnbook.views.StopableViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e5e5e5" />
+
+</LinearLayout>

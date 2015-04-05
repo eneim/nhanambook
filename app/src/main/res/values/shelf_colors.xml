@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="shelf_0">#4c411b</color>
+    <color name="shelf_1">#5b4a1e</color>
+    <color name="shelf_2">#6a5421</color>
+    <color name="shelf_3">#795d23</color>
+    <color name="shelf_4">#886626</color>
+    <color name="shelf_5">#976f29</color>
+    <color name="shelf_6">#a5792c</color>
+    <color name="shelf_7">#b4822f</color>
+    
+</resources>
